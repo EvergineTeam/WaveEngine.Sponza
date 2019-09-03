@@ -2,7 +2,7 @@
 Simple WaveEngine scene to show Sponza glTF 3D model.
 ![alt Sponza Model](https://github.com/WaveEngine/WaveEngine.Sponza/blob/master/Capture.JPG)
 
-##Sources
+## Sources
 This model has been obtained from the KhronosGroup glTF sample models repository:
 https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/Sponza
 
