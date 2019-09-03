@@ -1,0 +1,32 @@
+!WaveEngine.Assets.Exporters.MaterialMetaFile,WaveEngine.Assets
+Id: 7cd97642-b9c9-4758-8248-07f83c64aeee
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Unsupported
+ExportAsRaw: false
+MaterialInfo:
+  Id: 2d732925-8e0e-417d-b268-135432820244
+  ActiveDirectives:
+    - LIT
+    - DIFF
+    - NORMAL
+  EffectID: dab1f60a-82ad-40fc-8fbb-7b85caa6de0a
+  Layer: 0db59561-b3f5-444f-b5de-e62e3a5b42bf
+  Parameters:
+    - Name: DiffuseColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AACAPwAAgD8AAIA/
+    - Name: AmbientColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAA
+    - Name: EmissiveColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAA
+  Samplers: []
+  Textures:
+    - ID: 6c4df214-86a5-4b1c-a2c1-f1862e64d5df
+      Name: DiffuseTexture
+    - ID: 07ff507b-daf9-4477-9b64-cfe1ee1d71e3
+      Name: NormalTexture
+Profiles: {}

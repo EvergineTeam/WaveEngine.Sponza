@@ -1,0 +1,26 @@
+!WaveEngine.Assets.Exporters.MaterialMetaFile,WaveEngine.Assets
+Id: 89ac3f78-9c13-4a0a-97ee-f87976afc4d4
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Unsupported
+ExportAsRaw: false
+MaterialInfo:
+  Id: 847bd270-1b0b-4f5c-83b5-e2c0279597eb
+  ActiveDirectives:
+    - LIT
+  EffectID: dab1f60a-82ad-40fc-8fbb-7b85caa6de0a
+  Layer: 0db59561-b3f5-444f-b5de-e62e3a5b42bf
+  Parameters:
+    - Name: DiffuseColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AACAPwAAgD8AAIA/
+    - Name: AmbientColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAA
+    - Name: EmissiveColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAA
+  Samplers: []
+  Textures: []
+Profiles: {}

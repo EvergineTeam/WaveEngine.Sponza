@@ -1,0 +1,14 @@
+!WaveEngine.Converter.Models.ProjectModel,WaveEngine.Converter
+GameInfoPath: null
+Id: 738f8ee5-6f67-4167-86ad-9464f427a581
+Path: null
+ProfilesData:
+  Profiles:
+    - AlphaCompressionFormat: BC3_UNorm
+      LauncherType: Default
+      Name: Windows
+      NonAlphaCompressionFormat: BC3_UNorm
+      Platform: Windows
+ResourcesPath: Content
+Version: {}
+WaveVersion: 3.0.0.2687-preview

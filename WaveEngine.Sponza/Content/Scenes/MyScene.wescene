@@ -1,0 +1,589 @@
+!WaveEngine.Framework.Assets.AssetSources.Entities.SceneModel,WaveEngine.Framework
+Items:
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: camera
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 071bc695-3db8-4c80-a2d9-4952602abce2
+        LocalOrientation:
+          W: 0.61669451
+          X: 0.0257167462
+          Y: 0.786099136
+          Z: -0.0327810645
+        LocalPosition:
+          X: 8.09938526
+          Y: 0.971206903
+          Z: -1.21263611
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Components.Cameras.FreeCamera3D,WaveEngine.Components
+        Id: ebc2d688-492d-4062-9c4b-54c5e844d524
+        MaxPitch: 1.49225616
+        MouseSensibility: 0.0299999993
+        Speed: 5.0
+        TouchMoveAndOrientationRatio: 0.5
+        TouchSensibility: 1.0
+        UpdateOrder: 0.5
+      - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
+        Id: 9d72e89b-e620-44e0-982e-c565aa64b4e9
+        AspectRatio: -1.0
+        BackgroundColor:
+          A: 255
+          B: 20
+          G: 20
+          R: 20
+        CameraOrder: 0.0
+        ClearDepth: 1.0
+        ClearFlags: All
+        ClearStencil: 0
+        CustomProjection: null
+        DepthRange:
+          MaxDepth: 1.0
+          MinDepth: 0.0
+        DisplayTag: null
+        FarPlane: 1000.0
+        FieldOfView: 0.785398185
+        FrustumCullingEnabled: true
+        LayerMaskDefaultValue: true
+        NearPlane: 0.100000001
+        ScreenViewport:
+          Height: 0.0
+          MaxDepth: 0.0
+          MinDepth: 0.0
+          Width: 0.0
+          X: 0.0
+          Y: 0.0
+        UpVector:
+          X: 0.0
+          Y: 1.0
+          Z: 0.0
+    Children: []
+    Id: c118ddc4-88fe-457b-97e8-c711411a9a2d
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: Sponza
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 749d15d0-6ce6-4a74-9538-051d5159be08
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalScale:
+          X: 0.00800000038
+          Y: 0.00800000038
+          Z: 0.00800000038
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: ab0448be-3c72-41b4-bbab-ba686afd69f2
+        AsignedTo: Material0
+        Material: 716138fe-57bb-4899-96cb-db6fcc924acb
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: a47cbc3c-e7ea-48cc-8b34-429bd5b88633
+        AsignedTo: Material3
+        Material: 8adb65dc-3e2c-4b62-b91c-42596ae12e3b
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: b1e91981-2383-4a2f-b882-376aa1b5c147
+        AsignedTo: Material1
+        Material: 92c37ebe-9cae-46ff-add4-dda82ff3645f
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: b8a29484-827e-4d06-a1b1-487e8a0aa557
+        AsignedTo: Material4
+        Material: 9adcca8e-9c13-46d4-bd8c-b0f10f2521db
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: d2cc95d0-968f-420c-b0b5-1a76fbc5f6c0
+        AsignedTo: Material5
+        Material: 7cd97642-b9c9-4758-8248-07f83c64aeee
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 41c8fc30-af86-4a11-a5be-9e4634036167
+        AsignedTo: Material6
+        Material: ea41fff7-9ad7-4d2c-9178-20a0903567eb
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: c52ed195-618a-4767-a248-77bb2afe79f2
+        AsignedTo: Material7
+        Material: 90acd54a-19d6-415b-8ce3-385b690f5b16
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 087a694e-b348-4e7f-bc10-46c7b1eb6167
+        AsignedTo: Material8
+        Material: 0a947b0a-14fd-492e-9be3-dcf77e4dd0c8
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 4fbee009-0c26-4279-b8f0-134951b196c2
+        AsignedTo: Material9
+        Material: c7f0f074-564e-4cc4-b6df-69caeb06793f
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 6805e881-1354-4d9f-8f41-6a2a42d592f2
+        AsignedTo: Material10
+        Material: e1a532d6-be5a-47ec-8de5-390a81793111
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 4f20cd2d-d79d-4809-b325-93ba09146bd8
+        AsignedTo: Material11
+        Material: 3633a59a-9508-45ee-ba4a-b25ba2abdf4f
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 8d126815-abe4-4d35-b216-6c29f5df1071
+        AsignedTo: Material12
+        Material: 181633d4-cacc-4336-936d-52fbf41556ac
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: d0ad580e-0c59-45eb-9ed1-026d08a60949
+        AsignedTo: Material2
+        Material: 89ac3f78-9c13-4a0a-97ee-f87976afc4d4
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 54001270-b893-4e22-8a6b-4757d3d606c8
+        AsignedTo: Material13
+        Material: e1398142-8de7-44be-b9a9-eec1c9369166
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: d1d0c395-02e3-4552-953c-f9f73ca6966c
+        AsignedTo: Material14
+        Material: adab7741-7b8d-43a4-a0ff-e7a802dafd43
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: bdb9f26c-2c7e-4e84-a428-1454719f44cc
+        AsignedTo: Material15
+        Material: 05cfe699-8632-4f79-a68a-83849c0c255a
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 7ad54a64-f3bd-4ef3-a9a4-8733748609c7
+        AsignedTo: Material16
+        Material: d5e8f286-f945-423d-a7b4-d6e51a88bf24
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 7ba2304d-63ef-4253-9026-439bda797870
+        AsignedTo: Material17
+        Material: 5df89f77-f89a-4c27-a564-1bb49030ca85
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 2cb97e51-c20d-429a-937e-11c4c1a17af8
+        AsignedTo: Material18
+        Material: 132fa036-6152-4c5e-850e-d65a997e6e7b
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: deed278e-b0a9-442e-8c27-5a86abc7d0c4
+        AsignedTo: Material19
+        Material: ce247c2b-74bb-4461-9376-c23a9c5e0bb4
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 73b83f25-bcbf-4c0f-b2e4-76b180e622ae
+        AsignedTo: Material20
+        Material: 62dddf81-6b1a-4121-9154-ecd724eefa28
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: c596c2da-89c5-49b1-b70b-9341087d117c
+        AsignedTo: Material21
+        Material: 93d32730-fd71-4712-93d8-2bc5244e3b73
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: beaaabdb-e49a-4209-a921-2ba189a9d85c
+        AsignedTo: Material22
+        Material: f9b0306a-dcf1-442b-8b77-373e2f889c1e
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 00ffcbc7-c801-4a66-953a-3a46838214a1
+        AsignedTo: Material23
+        Material: 9e0ecd4b-980d-41ef-8bef-828d62c5730f
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 8aa1394b-f803-4b1b-838c-b644c47f4cee
+        AsignedTo: Material24
+        Material: ab85460d-0f44-45e9-8716-44c390b68d01
+        UseCopy: false
+      - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+        Id: 993055e6-47f7-49a2-bb5a-48089901516e
+        Model: ab8cc918-cc5d-4d4c-8b20-660a05a12faa
+        ModelMeshName: _Mesh_0
+      - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+        Id: 936e1003-e10f-4d0e-ab4c-8ba8219c96c6
+        DebugBoundingbox: true
+        FrustumCullingEnabled: true
+        OrderBias: 0
+    Children: []
+    Id: e6f6dafd-562f-43d4-be17-2631d1f1c730
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: Lights
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 82ff45c3-359b-42ed-aa83-9ff71ac8e7d4
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 1.51352882
+          Y: 2.01284289
+          Z: 0.087392807
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    Children:
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: pointLight
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 8c76a54a-775a-4afc-bc4f-90c12fcc6dc7
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 2.39249754
+              Y: -0.755238891
+              Z: 1.05478787
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Framework.Graphics.PointLight,WaveEngine.Framework
+            Id: ea2448a2-d5aa-4697-9c5a-1a70a74f5009
+            BoundingSphere:
+              Center:
+                X: 3.90602636
+                Y: 1.257604
+                Z: 1.14218068
+              Radius: 7.0
+            Color:
+              A: 255
+              B: 55
+              G: 157
+              R: 224
+            Intensity: 1.0999999
+            LightRange: 7.0
+        Children: []
+        Id: 5583c6e4-30e7-4a7f-a832-27883151d3d5
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: pointLight04
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: bdf706db-cdf7-4081-b052-73e5297a1c2e
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 7.42523289
+              Y: -0.674473882
+              Z: 3.13341904
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Framework.Graphics.PointLight,WaveEngine.Framework
+            Id: 8fb20bf8-40d4-45c3-9bcf-2c1e86561a2f
+            BoundingSphere:
+              Center:
+                X: 8.93876171
+                Y: 1.33836901
+                Z: 3.22081184
+              Radius: 7.0
+            Color:
+              A: 255
+              B: 224
+              G: 197
+              R: 55
+            Intensity: 1.0999999
+            LightRange: 7.0
+        Children: []
+        Id: c9e09371-131a-4dcf-b127-66283704af96
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: pointLight06
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 27bb7704-41ba-4771-83fb-929afdd02545
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 7.42523289
+              Y: -0.674473882
+              Z: -3.64471245
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Framework.Graphics.PointLight,WaveEngine.Framework
+            Id: d4fdf584-e34a-4d31-af4e-49b3b06dc544
+            BoundingSphere:
+              Center:
+                X: 8.93876171
+                Y: 1.33836901
+                Z: -3.55731964
+              Radius: 7.0
+            Color:
+              A: 255
+              B: 224
+              G: 197
+              R: 55
+            Intensity: 1.0999999
+            LightRange: 7.0
+        Children: []
+        Id: 59f8a92a-d76a-42f1-9673-4142f34c86dd
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: pointLight07
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: f8b040de-222e-44b8-9e52-4db2185b8080
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -11.1221037
+              Y: -0.674471736
+              Z: -3.6447258
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Framework.Graphics.PointLight,WaveEngine.Framework
+            Id: d74b985a-cfee-4709-a1d4-2d8a21d609f5
+            BoundingSphere:
+              Center:
+                X: -9.60857487
+                Y: 1.33837116
+                Z: -3.55733299
+              Radius: 7.0
+            Color:
+              A: 255
+              B: 224
+              G: 197
+              R: 55
+            Intensity: 1.0999999
+            LightRange: 7.0
+        Children: []
+        Id: dd94a164-1aa7-4a9e-aab3-4b5b3ee8bff2
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: pointLight05
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 4dfc05a5-830d-46f2-a974-9c7a4c9cb48c
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -11.129344
+              Y: -0.674473882
+              Z: 3.13341284
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Framework.Graphics.PointLight,WaveEngine.Framework
+            Id: 3a2e589d-8007-4f65-a9d2-329c80dc5b9a
+            BoundingSphere:
+              Center:
+                X: -9.61581516
+                Y: 1.33836901
+                Z: 3.22080564
+              Radius: 7.0
+            Color:
+              A: 255
+              B: 224
+              G: 197
+              R: 55
+            Intensity: 1.0999999
+            LightRange: 7.0
+        Children: []
+        Id: b0ed127a-111e-4e26-aa41-16a3c5ccca98
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: pointLight02
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 551d3fea-0bf0-4540-ad16-d013d50b59be
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 2.39249754
+              Y: -0.755238891
+              Z: -1.81167042
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Framework.Graphics.PointLight,WaveEngine.Framework
+            Id: 13f69c5b-cec4-45aa-afaf-328766be0253
+            BoundingSphere:
+              Center:
+                X: 3.90602636
+                Y: 1.257604
+                Z: -1.72427762
+              Radius: 7.0
+            Color:
+              A: 255
+              B: 55
+              G: 157
+              R: 224
+            Intensity: 1.0999999
+            LightRange: 7.0
+        Children: []
+        Id: ffecf5b1-d856-45be-b266-6d027579fcb7
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: pointLight01
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 09f526b1-cd18-43c5-9f0e-03d6b29f222e
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -6.44747066
+              Y: -0.755238891
+              Z: 1.05478501
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Framework.Graphics.PointLight,WaveEngine.Framework
+            Id: 10e4b9aa-83fb-4d80-aca7-f89711a18f18
+            BoundingSphere:
+              Center:
+                X: -4.93394184
+                Y: 1.257604
+                Z: 1.14217782
+              Radius: 7.0
+            Color:
+              A: 255
+              B: 55
+              G: 157
+              R: 224
+            Intensity: 1.0999999
+            LightRange: 7.0
+        Children: []
+        Id: 15699072-782b-4659-878c-8f76d5bdad05
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: pointLight03
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 91655492-f10a-46c5-ab32-b85ac408ee39
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -6.44747066
+              Y: -0.755238891
+              Z: -1.86110044
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Framework.Graphics.PointLight,WaveEngine.Framework
+            Id: 2ff1062f-52f8-4e60-8c5f-3be2037deba5
+            BoundingSphere:
+              Center:
+                X: -4.93394184
+                Y: 1.257604
+                Z: -1.77370763
+              Radius: 7.0
+            Color:
+              A: 255
+              B: 55
+              G: 157
+              R: 224
+            Intensity: 1.0999999
+            LightRange: 7.0
+        Children: []
+        Id: df1509e0-11cf-4d9f-a638-17b53a185fe9
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: pointLight08
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: a7f1cd4b-bbd5-42fa-bb29-1978fd1897fa
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -3.81469727E-06
+              Y: 16.1499424
+              Z: -0.261136562
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Framework.Graphics.PointLight,WaveEngine.Framework
+            Id: e09017f9-b082-43d2-99a3-7b0971937c37
+            BoundingSphere:
+              Center:
+                X: 1.51352501
+                Y: 18.1627846
+                Z: -0.173743755
+              Radius: 40.0
+            Color:
+              A: 255
+              B: 181
+              G: 150
+              R: 127
+            Intensity: 1.0
+            LightRange: 40.0
+        Children: []
+        Id: a5522437-476b-410d-bfa5-e45a90f4c195
+    Id: 3d9fde22-e606-4089-89a2-442831419e42
+Managers: []

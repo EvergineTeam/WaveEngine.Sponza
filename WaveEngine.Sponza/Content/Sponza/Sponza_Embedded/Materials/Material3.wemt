@@ -1,0 +1,100 @@
+!WaveEngine.Assets.Exporters.MaterialMetaFile,WaveEngine.Assets
+Id: 8adb65dc-3e2c-4b62-b91c-42596ae12e3b
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Unsupported
+ExportAsRaw: false
+MaterialInfo:
+  Id: 18e644d3-63d8-4fb5-8642-788e15b73148
+  ActiveDirectives:
+    - DIFF
+    - NORMAL
+    - FRES
+    - LIT
+    - DUAL_LMAP
+    - ATEST
+  EffectID: dab1f60a-82ad-40fc-8fbb-7b85caa6de0a
+  Layer: 0db59561-b3f5-444f-b5de-e62e3a5b42bf
+  Parameters:
+    - Name: World
+      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      ValueByteArray: AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAPw==
+    - Name: WorldInverseTranspose
+      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      ValueByteArray: AAAAPwAAAIAAAAAAAAAAgAAAAIAAAAA/AAAAgAAAAAAAAAAAAAAAgAAAAD8AAACAAAAAgAAAAAAAAACAAACAPw==
+    - Name: ViewProj
+      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      ValueByteArray: N/KwP7ZM+T7euE8/jbNPPwAAAAA28hVA9Q53vqIId77pzQZAAZ6jvmBUCL/iUAi/+PmbNP5ECzUe7ItAvBuPQA==
+    - Name: CameraPosition
+      Type: WaveEngine.Mathematics.Vector4,WaveEngine.Mathematics
+      ValueByteArray: mjdowJYYij/lZxhAAAAAAA==
+    - Name: EyeCount
+      Type: System.Int32
+      ValueByteArray: AQAAAA==
+    - Name: DiffuseColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AACAPwAAgD8AAIA/
+    - Name: Alpha
+      Type: System.Single
+      ValueByteArray: AACAPw==
+    - Name: AmbientColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAA
+    - Name: SpecularPower
+      Type: System.Single
+      ValueByteArray: AACAQg==
+    - Name: EmissiveColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAA
+    - Name: FresnelFactor
+      Type: System.Single
+      ValueByteArray: AACAPw==
+    - Name: TextureOffset1
+      Type: WaveEngine.Mathematics.Vector2,WaveEngine.Mathematics
+      ValueByteArray: AAAAAAAAAAA=
+    - Name: TextureOffset2
+      Type: WaveEngine.Mathematics.Vector2,WaveEngine.Mathematics
+      ValueByteArray: AAAAAAAAAAA=
+    - Name: IBLFactor
+      Type: System.Single
+      ValueByteArray: AACAPw==
+    - Name: EnvironmentAmount
+      Type: System.Single
+      ValueByteArray: AACAPw==
+    - Name: ReferenceAlpha
+      Type: System.Single
+      ValueByteArray: AQAAPw==
+  Samplers:
+    - ID: 2a5ea5ed-321f-4b16-ab2a-eed370bc3af8
+      Name: DiffuseSampler
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 2a5ea5ed-321f-4b16-ab2a-eed370bc3af8
+      Name: NormalSampler
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+  Textures:
+    - ID: 4147cc9b-eae6-440c-9473-8b5fa6345090
+      Name: DiffuseTexture
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 67032435-3822-4677-a3e9-6ced7e80d499
+      Name: NormalTexture
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: a8cfe45c-ebcf-479e-9e9c-6ecd7dabede0
+      Name: LightingTexture
+Profiles: {}

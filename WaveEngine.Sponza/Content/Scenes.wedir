@@ -1,0 +1,9 @@
+!WaveEngine.Assets.Exporters.DirectoryMetaFile,WaveEngine.Assets
+Id: f68fa6f6-0795-455f-a143-e3621754e4bb
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  OutputName: null
+  Platform: Unsupported
+ExportAsRaw: false
+Profiles: {}

@@ -1,0 +1,95 @@
+!WaveEngine.Assets.Exporters.MaterialMetaFile,WaveEngine.Assets
+Id: 02181b63-5a0e-46d1-9208-d92376ae33fb
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Unsupported
+MaterialInfo:
+  Id: d226c11d-1b7c-4486-8c34-bc4e4f099267
+  ActiveDirectives:
+    - FRES
+    - DUAL_LMAP
+    - LIT
+  EffectID: dab1f60a-82ad-40fc-8fbb-7b85caa6de0a
+  Layer: 0db59561-b3f5-444f-b5de-e62e3a5b42bf
+  Parameters:
+    - Name: World
+      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      ValueByteArray: AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAPw==
+    - Name: WorldInverseTranspose
+      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      ValueByteArray: AAAAPwAAAIAAAAAAAAAAgAAAAIAAAAA/AAAAgAAAAAAAAAAAAAAAgAAAAD8AAACAAAAAgAAAAAAAAACAAACAPw==
+    - Name: ViewProj
+      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      ValueByteArray: UUD0P3SBDD43Tgi/ukoIv4TlWLP8ohlAqWvZPRhm2T311pq/36NdPr0DV788/la/XYSRtE3cqzQf7ItAvRuPQA==
+    - Name: CameraPosition
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: BWEYQDgP876gXnBA
+    - Name: DiffuseColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AACAPwAAgD8AAIA/
+    - Name: Alpha
+      Type: &o24 System.Single
+      ValueByteArray: AACAPw==
+    - Name: AmbientColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAA
+    - Name: SpecularPower
+      Type: *o24
+      ValueByteArray: AAAAAA==
+    - Name: EmissiveColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AACAPwAAgD8AAIA/
+    - Name: FresnelFactor
+      Type: *o24
+      ValueByteArray: AACAPw==
+    - Name: TextureOffset1
+      Type: WaveEngine.Mathematics.Vector2,WaveEngine.Mathematics
+      ValueByteArray: AAAAAAAAAAA=
+    - Name: TextureOffset2
+      Type: WaveEngine.Mathematics.Vector2,WaveEngine.Mathematics
+      ValueByteArray: AAAAAAAAAAA=
+    - Name: IBLFactor
+      Type: *o24
+      ValueByteArray: AACAPw==
+    - Name: EnvironmentAmount
+      Type: *o24
+      ValueByteArray: AACAPw==
+    - Name: ReferenceAlpha
+      Type: *o24
+      ValueByteArray: AAAAAA==
+  Samplers:
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+  Textures:
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 356c2f7c-0319-4196-9b6e-13e7cd5f7f8a
+      Name: LightingTexture
+Profiles: {}

@@ -1,0 +1,74 @@
+!WaveEngine.Assets.Exporters.ModelMetaFile,WaveEngine.Assets
+Id: ab8cc918-cc5d-4d4c-8b20-660a05a12faa
+Clips: []
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Unsupported
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: false
+Profiles: {}
+Source:
+  Header:
+    Id: 2f3b7cc3-39ee-4f03-943b-dc292c4e8043
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: e9d9842c-0c19-4360-a816-f89f69dd0b91
+    AnimationTracks: []
+    EmbeddedResources: null
+    Materials:
+      - Item1: Material0
+        Item2: 716138fe-57bb-4899-96cb-db6fcc924acb
+      - Item1: Material1
+        Item2: 92c37ebe-9cae-46ff-add4-dda82ff3645f
+      - Item1: Material2
+        Item2: 89ac3f78-9c13-4a0a-97ee-f87976afc4d4
+      - Item1: Material3
+        Item2: 8adb65dc-3e2c-4b62-b91c-42596ae12e3b
+      - Item1: Material4
+        Item2: 9adcca8e-9c13-46d4-bd8c-b0f10f2521db
+      - Item1: Material5
+        Item2: 7cd97642-b9c9-4758-8248-07f83c64aeee
+      - Item1: Material6
+        Item2: ea41fff7-9ad7-4d2c-9178-20a0903567eb
+      - Item1: Material7
+        Item2: 90acd54a-19d6-415b-8ce3-385b690f5b16
+      - Item1: Material8
+        Item2: 0a947b0a-14fd-492e-9be3-dcf77e4dd0c8
+      - Item1: Material9
+        Item2: c7f0f074-564e-4cc4-b6df-69caeb06793f
+      - Item1: Material10
+        Item2: e1a532d6-be5a-47ec-8de5-390a81793111
+      - Item1: Material11
+        Item2: 3633a59a-9508-45ee-ba4a-b25ba2abdf4f
+      - Item1: Material12
+        Item2: 181633d4-cacc-4336-936d-52fbf41556ac
+      - Item1: Material13
+        Item2: e1398142-8de7-44be-b9a9-eec1c9369166
+      - Item1: Material14
+        Item2: adab7741-7b8d-43a4-a0ff-e7a802dafd43
+      - Item1: Material15
+        Item2: 05cfe699-8632-4f79-a68a-83849c0c255a
+      - Item1: Material16
+        Item2: d5e8f286-f945-423d-a7b4-d6e51a88bf24
+      - Item1: Material17
+        Item2: 5df89f77-f89a-4c27-a564-1bb49030ca85
+      - Item1: Material18
+        Item2: 132fa036-6152-4c5e-850e-d65a997e6e7b
+      - Item1: Material19
+        Item2: ce247c2b-74bb-4461-9376-c23a9c5e0bb4
+      - Item1: Material20
+        Item2: 62dddf81-6b1a-4121-9154-ecd724eefa28
+      - Item1: Material21
+        Item2: 93d32730-fd71-4712-93d8-2bc5244e3b73
+      - Item1: Material22
+        Item2: f9b0306a-dcf1-442b-8b77-373e2f889c1e
+      - Item1: Material23
+        Item2: 9e0ecd4b-980d-41ef-8bef-828d62c5730f
+      - Item1: Material24
+        Item2: ab85460d-0f44-45e9-8716-44c390b68d01
+    Nodes:
+      - _Node_0
+SwapWindingOrder: false
