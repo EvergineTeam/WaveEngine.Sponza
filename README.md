@@ -1,5 +1,6 @@
 # Sponza
 Simple WaveEngine scene to show Sponza glTF 3D model.
+
 ![alt Sponza Model](https://github.com/WaveEngine/WaveEngine.Sponza/blob/master/Capture.JPG)
 
 ## Sources
